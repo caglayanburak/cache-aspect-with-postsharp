@@ -4,7 +4,7 @@ namespace RedisSample.Models
 {
     public class Test : ITest
     {
-        [LoggingAspect]
+        [CachingAspect]
         public string Get(int id)
         {
             Console.WriteLine("denemet");
